@@ -51,12 +51,12 @@ let Header= () => {
 
   return (
     <>
-      <nav className="navbar sticky-top navbar-light px-5 ">
+      <nav className="navbar sticky-top navbar-light px-3 px-md-5">
               <button type="button" className="navbar-toggler" onClick={()=>setShow(!show)}>
                  <span className="navbar-toggler-icon"></span>
               </button>
               <div class="navName">
-                  <h4><i>U Cookin</i></h4>
+                  <h4><i><b>U Cookin</b></i></h4>
               </div>
               <div class="navSocialMedia">
                 <div><a href="https://www.facebook.com/alex.pacaldo.14/"><i class="bi bi-facebook"></i></a></div>
@@ -77,7 +77,7 @@ let Header= () => {
                     <StyledLink to = '/contactUs' onClick={()=>setShow(false)}>Contact Us</StyledLink>                  
                   </NavList>
                   <br></br><br></br>
-                  <div class="navSocialMedia text-center">
+                  <div class="navProfile text-center">
                       {showBtn?<input className='btn btn-light mx-2' type="button" value="Login" onClick={()=>{ loginBtn(); setShow(false) }}/>:null}
                       {showBtn?<input className='btn btn-primary'type="button" value="Sign Up" onClick={()=>{ regBtn(); setShow(false) }}/>:null}
                       {!showBtn?<input className='btn btn-light mx-2'type="button" value="Profile" onClick={()=>{ editProfileBtn(); setShow(false) }}/>:null}
