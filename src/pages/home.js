@@ -84,7 +84,7 @@ const Home = () => {
             <h1 className='text-center'><b>As easy as one two three, </b></h1>
             <br></br>
 
-            <div className='row row-cols-1 row-cols-md-2 mx-1 gy-2 text-center'>
+            <div className='row row-cols-1 row-cols-md-2 mx-1 gy-2 text-center '>
               {/* Step1 */}
               <div className='col d-flex justify-content-center justify-content-md-end'>
                 <div>
