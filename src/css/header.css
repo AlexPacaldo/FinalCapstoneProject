@@ -1,0 +1,44 @@
+nav{
+    background-color: white;
+    border-bottom: 1px solid rgb(173, 173, 173);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navSocialMedia{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.navSocialMedia a{
+  color: black;
+}
+.navSocialMedia a:hover{
+  padding: 1px 4px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50px;
+  color: white;
+}
+.navName{
+  margin-left: 50px;
+}
+
+/* SIDENAV */
+.navMob{
+    background-color: #000;
+    height: 100vh;
+  }
+  .mainNavMob{
+    position: fixed;
+    z-index: 1000;
+    width: 250px;
+    left: -100%;
+    transition: 550ms
+  }
+  .mainNavMob.active{
+    left: 0;
+    transition: 350ms
+  }

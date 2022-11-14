@@ -1,0 +1,41 @@
+/* heroSec */
+.hero{
+    min-height: 95vh;
+    color: black;
+  }
+  .hero > .plate > img{
+    width: 60vh;
+  }
+
+  /* secondSec */
+  .secondSec{
+    min-height: 95vh;
+  }
+  .cards{
+    padding: 10px;
+    background-color: #f8f9fa;;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* thirdSec */
+  .thirdSec{
+    min-height: 95vh;
+  }
+  .thirdSecImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  /* fourthSec */
+  .fourthSec{
+    min-height: 95vh;
+  }
+  .fourthSecImg{
+    width: 100%;
+  }
