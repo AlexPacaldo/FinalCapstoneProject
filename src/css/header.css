@@ -23,7 +23,10 @@ nav{
   color: white;
 }
 .navName{
-  margin-left: 50px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin-right: 50px;
 }
 
 /* SIDENAV */
@@ -44,6 +47,9 @@ nav{
   }
 
   @media screen and (min-width:768px) {
+    .navName{
+      margin-left: 50px;
+    }
     .navSocialMedia{
       display: flex;
     }
