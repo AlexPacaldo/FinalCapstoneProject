@@ -72,7 +72,7 @@ let Header= () => {
               <div className='navMob py-5'>
                   <NavList className='d-flex flex-column align-items-center'>
                     <StyledLink to = '/' onClick={()=>setShow(false)}>Home</StyledLink>
-                    <StyledLink to = '/recipes' onClick={()=>setShow(false)}>Recipes</StyledLink> 
+                    <StyledLink to = '/UserHome' onClick={()=>setShow(false)}>Recipes</StyledLink> 
                     <StyledLink to = '/cart' onClick={()=>setShow(false)}>Cart</StyledLink>   
                     <StyledLink to = '/contactUs' onClick={()=>setShow(false)}>Contact Us</StyledLink>                  
                   </NavList>
